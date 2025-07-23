@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from tdd_project.core.config import settings
+from core.config import settings
 
 
 class App(FastAPI):
