@@ -1,3 +1,4 @@
+### Este projeto foi desenvolvido para, ampliar meu conhecimento de Desenvolvimento Orientado a Teste, mais conhecido como TDD.
 ## O que foi usado: </br>
 - Visual Studio Code 1.101.0</br>
 - python 3.10</br>
@@ -32,3 +33,8 @@ Colocar dentro desse arquivo: <b>pyproject.toml</b> (colar essas dependências:<
 abaixo de onde está: <b>[tool.poetry.dependencies] )</b></br>
 No terminal use o comando: <b>poetry shell</b></br>
 Agora use o comando: <b>poetry install</b></br>
+
+Observação: toda vez que for rodar o código, mesmo com a configuração acima, tem que usar esses três comandos: </br>
+- pyenv local 3.12.1</br>
+- poetry env use 3.12.1</br>
+- poetry shell
